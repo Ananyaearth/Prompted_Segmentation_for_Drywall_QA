@@ -1,0 +1,24 @@
+{
+  "cracks": {
+    "prompt": "segment crack",
+    "gt_type": "true_polygon_gt",
+    "images_scored": 201,
+    "missing_predictions": 0,
+    "val_dice": 0.7044836800734733,
+    "val_mIoU": 0.543786032825492,
+    "triptychs_dir": "/Origin/outputs/phase7/cracks_triptychs"
+  },
+  "drywall": {
+    "prompt": "segment taping area",
+    "gt_type": "pseudo_gt_v2",
+    "images_scored": 202,
+    "missing_predictions": 0,
+    "val_dice": 0.7070017102500386,
+    "val_mIoU": 0.5467924558406035,
+    "triptychs_dir": "/Origin/outputs/phase7/drywall_triptychs"
+  },
+  "footprint": {
+    "cracks_model_mb": 93.38347339630127,
+    "drywall_model_mb": 93.38374042510986
+  }
+}

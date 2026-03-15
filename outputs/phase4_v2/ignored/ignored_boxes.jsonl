@@ -1,0 +1,2 @@
+{"split": "valid", "image_id": 108, "file_name": "2000x1500_66_resized_jpg.rf.6e781cc3a036d6a7875502ab8a5ab30f.jpg", "bbox": [0, 0, 1, 1], "reason": "degenerate_box"}
+{"split": "valid", "image_id": 168, "file_name": "2000x1500_66_resized_jpg.rf.b699e5baf2db19c55421c67e1168bdd7.jpg", "bbox": [0, 0, 1, 1], "reason": "degenerate_box"}

@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "summaries": [
+    {
+      "split": "train",
+      "changed": 808,
+      "empty_after": 750,
+      "images": 820
+    },
+    {
+      "split": "valid",
+      "changed": 201,
+      "empty_after": 188,
+      "images": 202
+    }
+  ],
+  "thresholds": {
+    "project_root": "/Origin",
+    "v2_root": null,
+    "v3_root": null,
+    "overlay_limit": 60,
+    "seed": 7,
+    "min_area": 150,
+    "max_fill_ratio": 0.35,
+    "min_elongation": 6.0,
+    "max_thickness": 8.0
+  }
+}

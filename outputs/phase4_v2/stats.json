@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "sam_type": "vit_b",
+  "sam_ckpt": "/Origin/sam_vit_b_01ec64.pth",
+  "device": "cuda",
+  "pad_frac": 0.0,
+  "max_area_frac": 0.6,
+  "min_area": 100,
+  "morph": false,
+  "overlay_limit": 40,
+  "seed": 7,
+  "splits": [
+    {
+      "split": "train",
+      "images": 820,
+      "total_boxes": 1111,
+      "used_boxes": 1094,
+      "ignored_boxes": 17,
+      "failed_boxes": 0,
+      "suspicious_masks": 1,
+      "pseudo_dir": "/Origin/outputs/phase4_v2/pseudo_masks/train",
+      "overlay_dir": "/Origin/outputs/phase4_v2/overlays/train"
+    },
+    {
+      "split": "valid",
+      "images": 202,
+      "total_boxes": 250,
+      "used_boxes": 248,
+      "ignored_boxes": 2,
+      "failed_boxes": 0,
+      "suspicious_masks": 1,
+      "pseudo_dir": "/Origin/outputs/phase4_v2/pseudo_masks/valid",
+      "overlay_dir": "/Origin/outputs/phase4_v2/overlays/valid"
+    }
+  ]
+}
